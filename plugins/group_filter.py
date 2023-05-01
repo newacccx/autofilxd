@@ -136,13 +136,7 @@ btn.insert(0,
              
              )
     else:
-        # How to Download button
-
-    btn.append(
-
-    [InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/movieuniverse199/5')]
-
-)
+        
         btn.append(
             [
                 InlineKeyboardButton("⏪ BACK", callback_data=f"next_{req}_{key}_{off_set}"),
